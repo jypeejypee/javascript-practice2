@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Variables</h2>
+<p id="demo"></p>
+
+<script>
+// Step 1: a constant for the name
+const firstName = "John";
+// Step 2: a variable for the age
+let age = 25;
+// Step 3: add one year
+age = age + 1;
+// Step 4: show the result
+document.getElementById("demo").innerHTML = firstName + " is " + age; 
+</script>
+
+</body>
+</html>
