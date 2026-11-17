@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Shopping Cart</h2>
+<p id="demo"></p>
+
+<script>
+let price = 20;
+let quantity = 3;
+
+// Step 1: multiply the price by the quantity
+let total = price * quantity;
+// Step 2: add 5 for shipping
+total += 5;
+// Step 3: compare the total with 50
+let isBig = total>50
+// Step 4: show the result
+document.getElementById("demo").innerHTML = "Total: " + total + ", big order: " + isBig;
+</script>
+
+</body>
+</html>
