@@ -10,7 +10,7 @@ let hour = 14;
 let isWeekend = false;
 let greeting = "";
 
-// Step 1: choose the greeting
+
 if(hour<12){greeting = "Good morning";}
 else if(hour<18){greeting = "Good day";}
 else{greeting = "Good evening";}
