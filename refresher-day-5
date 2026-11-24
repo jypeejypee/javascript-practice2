@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>String Methods</h2>
+<p id="demo"></p>
+
+<script>
+let text = "  JavaScript is fun  ";
+
+// Step 1: remove the spaces at both ends
+let clean = text.trim();
+// Step 2: convert to upper case
+let upper = clean.toUpperCase();
+// Step 3: find the position of the word
+let pos = clean.indexOf("fun");
+// Step 4: show the result
+document.getElementById("demo").innerHTML = upper + " - position " + pos;
+</script>
+
+</body>
+</html>
