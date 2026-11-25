@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Numbers</h2>
+<p id="demo"></p>
+
+<script>
+let a = "10";
+let b = 5;
+
+// Step 1: add a and b as numbers
+let sum = Number(a) + b;
+// Step 2: divide the sum by 2
+let half = sum/2;
+// Step 3: write the result with two decimals
+let text = half.toFixed(2);
+// Step 4: show the result
+document.getElementById("demo").innerHTML = "Sum: " + sum + ", half: " + text;
+</script>
+
+</body>
+</html>
