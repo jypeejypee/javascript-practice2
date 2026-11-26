@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Functions</h2>
+<p id="demo"></p>
+
+<script>
+// Step 1: the multiply function
+function multiply(a,b) {
+return a*b;}
+// Step 2: call the function
+let result = multiply(4,5);
+// Step 3: the square arrow function
+const square = (x)  => x*x;
+// Step 4: show the result
+document.getElementById("demo").innerHTML = "Result: " + square(result);
+</script>
+
+</body>
+</html>
